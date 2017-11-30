@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="Data/Ressources.js"></script>
+    <script type="text/javascript" src="Data/GameState.js"></script>
+    <script type="text/javascript" src="Engine.js"></script>
+    <meta charset="UTF-8">
+    <title>A Dark Room</title>
+</head>
+<body>
+
+<div id="Console"></div>
+
+<div id="Tabs"></div>
+
+<div id="Body">
+    <input id="studyButton" type="button" value="Read a book"/>
+</div>
+
+<div id="Ressources">
+    <span id="insanity_name">Insanity =</span>
+    <span id="insanity_amount">0</span>
+</div>
+
+
+<script>
+    document.getElementById("studyButton").onclick = function () {
+        console.log(this)
+        buttonPress(this.id);
+    }
+</script>
+</body>
+</html>

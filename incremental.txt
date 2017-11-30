@@ -1,0 +1,111 @@
+Incremental Game:
+	start at a good home, picking up candy. (reference to candy box)
+	once you have picked up a bit of candy you can eat it or throw it away
+	eatign it gives a little bit of hp (max hp? healing hp?)(maybe the hp will turn into mp?, making it the power that turns all else to ashes? maybe you burn down your house?) (we are talking super small amount, but it is fine for this stage in the game) 
+	throwing away enough of it will unlock "rebellious" (that should set the tone for the game really quick)
+	
+	
+
+
+
+
+	WAR! (Based on Tanja the Evil)
+	You are in a warring nation because god hates you.
+	goal should be to survive, possibly beat the other nations
+	
+	Start with simple things, early ages.
+	or start with the early life of your character.
+	Meat/ration from the enemy for example
+		turning canibal?
+	
+	When you are a child (school) all you have to worry about is your ration - you surviving.
+	maybe you slowly gain schoolpoints/grades and once you reach a certain point you get to the next stage
+	
+	as a soldier you can die (maybe make child dyiable too).
+	there are also other soldiers, they only act as a way of strengthning you.
+	
+	as you become a comander or some shit you will have to deal with getting better/more recruits
+	possibly have to deal with their motivation
+	
+	add new materials for guns and the like. or motivation. or more troops or so on.
+	
+	
+	
+	god turns on the waring nation, helping the oteher nations.
+	you start errecting a tower of corpses to the heavens.
+	goal becomes to kill god.
+	after that you might turn back time to keep fighting.
+	
+	
+	what could make the restart worth it?#
+	I think we might be better of without it
+	needs mor tehn just a lil boost i think
+		maybe less of a restart there, and more like "small prestiges" in the sense of joining in armys, taking new positions and so on.
+		or maybe have it restart every now and then (like magikarp jump), for example when you are overrun by enemies.
+			god who wants you to suffer revives you and so slowly you reach the point where you can kill him
+		prestige points could be used to gain faster access to new tiers or even skip entier tiers (for example: if you were to start as a kid learning war, you could skip school by instinctiv knowledge)
+	
+	quotes and lyrics from the show/song could be turned into powerfull levelups
+	      example: "peace and tranquility, let aloen reconciliation. are the acts of domestic dogs who`ve forsaken their fangs! Show them that we are wolfs ripping them appart!" (part of the songs lyrics) could be a somewhat mid to lategame upgrade that turns your armys savage
+
+	
+will people like to play as a evil blood thirsty thing?
+	overlord kinda proved people do.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+r/incremental_game questions
+
+ending vs no ending
+
+pacing
+	how long do you want to play a simple thing?
+	
+unfolding game with prestige
+	think playing minedefense (one of my favorites) or a dark room. but every now and then you prestige, this allows you to start over with bonuses that make the start and lategame faster and faster to the point where you can essentaly skip parts.
+	think mine defense, but after getting your first x you prestige and start over, just that this time you skip the clicking by yourself since you start with an army of ants.
+	or for later game parts think you start out with the industry tap and the necesseary minions to support it.
+	would this be fun/welcome or just tedious?
+	do you prefear to constantly unfold new things, like in minedefense, or would you like to break it of every now and then and then get further (see any incremental but i like magikarp jump as an example)
+	
+forced prestige
+	magikarp example
+	in an unfolding game.
+	
+
+	
+	
+	
+	
+memos:
+https://www.reddit.com/r/incremental_games/comments/6jz273/the_7_sins_of_incrementals/
+https://www.reddit.com/r/incremental_games/comments/6k0djf/the_7_virtues_of_incrementals/
+https://www.reddit.com/r/incremental_games/comments/6muo0w/forced_prestige/
+http://www.kongregate.com/games/egosummo/groundhog-life
