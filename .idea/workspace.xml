@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f7776c9-1dd8-43eb-a39a-9cefdbc6aaae" name="Default" comment="" />
+    <list default="true" id="1f7776c9-1dd8-43eb-a39a-9cefdbc6aaae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DeepOnes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/GameState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Hounds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OldOnes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Ressources.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Units.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Engine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Story.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Titles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consoleControll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/incremental.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EldritschLibrary.html" afterPath="$PROJECT_DIR$/EldritschLibrary.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,81 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EldritschLibrary.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EldritschLibrary.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EldritschLibrary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Engine.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine.js">
+        <entry file="file://$PROJECT_DIR$/scripts/Engine.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/IOController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GameState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/GameState.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Units.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Units.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OldOnes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/OldOnes.js">
+        <entry file="file://$PROJECT_DIR$/scripts/Container/GameState.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeepOnes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ressources.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Ressources.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consoleControll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consoleControll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -120,6 +94,9 @@
       <replace>rituals</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -127,16 +104,27 @@
         <option value="$PROJECT_DIR$/ConsoleControl.js" />
         <option value="$PROJECT_DIR$/gameState.js" />
         <option value="$PROJECT_DIR$/Ressources.js" />
-        <option value="$PROJECT_DIR$/Data/GameState.js" />
-        <option value="$PROJECT_DIR$/Data/Units.js" />
         <option value="$PROJECT_DIR$/Data/Hounds.js" />
         <option value="$PROJECT_DIR$/Data/OldOnes.js" />
-        <option value="$PROJECT_DIR$/Data/DeepOnes.js" />
         <option value="$PROJECT_DIR$/consoleControll.js" />
-        <option value="$PROJECT_DIR$/EldritschLibrary.html" />
         <option value="$PROJECT_DIR$/engine.js" />
         <option value="$PROJECT_DIR$/Story.js" />
         <option value="$PROJECT_DIR$/Titles.js" />
+        <option value="$PROJECT_DIR$/Data/GameState.js" />
+        <option value="$PROJECT_DIR$/Engine.js" />
+        <option value="$PROJECT_DIR$/Data/DeepOnes.js" />
+        <option value="$PROJECT_DIR$/Data/Units.js" />
+        <option value="$PROJECT_DIR$/Data/Ressources.js" />
+        <option value="$PROJECT_DIR$/scripts/Data/GameState.js" />
+        <option value="$PROJECT_DIR$/scripts/Data/Units.js" />
+        <option value="$PROJECT_DIR$/scripts/Container/Units.js" />
+        <option value="$PROJECT_DIR$/scripts/Container/GameState.js" />
+        <option value="$PROJECT_DIR$/scripts/Container/Story.js" />
+        <option value="$PROJECT_DIR$/scripts/Container/Ressources.js" />
+        <option value="$PROJECT_DIR$/scripts/Container/IOControll.js" />
+        <option value="$PROJECT_DIR$/scripts/IOControll.js" />
+        <option value="$PROJECT_DIR$/scripts/Engine.js" />
+        <option value="$PROJECT_DIR$/EldritschLibrary.html" />
       </list>
     </option>
   </component>
@@ -153,13 +141,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="x" value="1717" />
+    <option name="y" value="-20" />
+    <option name="width" value="1750" />
+    <option name="height" value="1102" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -176,6 +168,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,13 +179,23 @@
             <path>
               <item name="Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="Library" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Data" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Container" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +205,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dominik Rose\eclipse-workspace\KomodoFactory\Library\scripts" />
+      <recent name="C:\Users\Dominik Rose\eclipse-workspace\KomodoFactory\Library\scripts\Data" />
       <recent name="C:\Users\Dominik Rose\eclipse-workspace\Library\Data" />
     </key>
   </component>
@@ -220,6 +225,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1f7776c9-1dd8-43eb-a39a-9cefdbc6aaae" name="Default" comment="" />
@@ -230,23 +238,30 @@
       <workItem from="1510654602044" duration="33314000" />
       <workItem from="1510918795209" duration="83000" />
       <workItem from="1512030415792" duration="4021000" />
+      <workItem from="1515057721037" duration="19000" />
+      <workItem from="1515962562219" duration="1380000" />
+      <workItem from="1516009914902" duration="662000" />
+      <workItem from="1516266295334" duration="5371000" />
+      <workItem from="1516280645976" duration="6790000" />
+      <workItem from="1516348522387" duration="9053000" />
+      <workItem from="1516364963120" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37418000" />
+    <option name="totallyTimeSpent" value="61364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1698" height="1028" extended-state="6" />
+    <frame x="1672" y="-8" width="1936" height="1046" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -254,7 +269,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -269,214 +284,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EldritschLibrary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/GameState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Units.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Hounds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/OldOnes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Ressources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consoleControll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Story.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2877">
-          <caret line="137" column="96" lean-forward="true" selection-start-line="137" selection-start-column="96" selection-end-line="137" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EldritschLibrary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/GameState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Units.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Hounds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/OldOnes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Ressources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consoleControll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Story.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2436">
-          <caret line="116" column="2" lean-forward="false" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Hounds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/OldOnes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Units.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Ressources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consoleControll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/GameState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Ressources.js" />
+    <entry file="file://$PROJECT_DIR$/consoleControll.js" />
+    <entry file="file://$PROJECT_DIR$/Titles.js" />
     <entry file="file://$PROJECT_DIR$/EldritschLibrary.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -485,7 +296,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine.js">
+    <entry file="file://$PROJECT_DIR$/Engine.js" />
+    <entry file="file://$PROJECT_DIR$/Data/GameState.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Units.js" />
+    <entry file="file://$PROJECT_DIR$/Data/OldOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Ressources.js" />
+    <entry file="file://$PROJECT_DIR$/consoleControll.js" />
+    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js" />
+    <entry file="file://$PROJECT_DIR$/EldritschLibrary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine.js" />
+    <entry file="file://$PROJECT_DIR$/Data/GameState.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Units.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Hounds.js" />
+    <entry file="file://$PROJECT_DIR$/Data/OldOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Ressources.js" />
+    <entry file="file://$PROJECT_DIR$/consoleControll.js" />
+    <entry file="file://$PROJECT_DIR$/Story.js" />
+    <entry file="file://$PROJECT_DIR$/EldritschLibrary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine.js" />
+    <entry file="file://$PROJECT_DIR$/Data/GameState.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Units.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Hounds.js" />
+    <entry file="file://$PROJECT_DIR$/Data/OldOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Ressources.js" />
+    <entry file="file://$PROJECT_DIR$/consoleControll.js" />
+    <entry file="file://$PROJECT_DIR$/Story.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Hounds.js" />
+    <entry file="file://$PROJECT_DIR$/Story.js" />
+    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Data/OldOnes.js" />
+    <entry file="file://$PROJECT_DIR$/Titles.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Units.js" />
+    <entry file="file://$PROJECT_DIR$/consoleControll.js" />
+    <entry file="file://$PROJECT_DIR$/Data/Ressources.js" />
+    <entry file="file://$PROJECT_DIR$/Engine.js" />
+    <entry file="file://$PROJECT_DIR$/Data/GameState.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/Container/emptyGameState.json" />
+    <entry file="file://$PROJECT_DIR$/scripts/Container/DeepOnes.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/Container/Units.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/Container/Story.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Container/Ressources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Container/GameState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/IOController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Engine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -493,26 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Titles.js">
+    <entry file="file://$PROJECT_DIR$/EldritschLibrary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="75" column="36" lean-forward="true" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Story.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/DeepOnes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
           <folding />
         </state>
       </provider>

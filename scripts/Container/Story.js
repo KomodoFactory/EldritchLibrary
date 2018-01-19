@@ -1,30 +1,30 @@
 console.log("You awaken in a dark Room. You spot a few Books in the corner.")
-
-console.log("You decide to read. You don't recognise the language nor the symbols. Still you feel... different. More knowledgeable maybe.")
-
+//1 knowledge
+console.log("You decide to read. You don't recognize the language nor the symbols. Still you feel... different. More knowledgeable maybe.")
+//2 knowledge
 console.log("You hear something from the walls. A quiet rumble.")
-
+//3 knowledge
 console.log("There must be rats in the wall. And they are getting louder.")
-
+//4 knowledge
 console.log("The sound of the walls is suffocating you. You need to get out of here and quick.")
-
+//5 knowledge
 console.log("Holding your ears shut your eyes wander the room. There is a door there. One you are sure has not been there before.")
-//unlock exploration now.
+//unlock exploration now. (costs 5 knowlege)
 //when you explore the first time:
 console.log("You decide to leave the dark room. An equally dark hallway awaits, the rats are still noisy. Maybe there are more doors to be seen.")
 
 //let them read for a bit. maybe after like five reads:
 console.log("The walls are deafeningly loud. Yet you swear there was a whisper just now.")
-//let them open a room:
+//let them open a room (7 knowledge):
 console.log("Another room full of books. Just as dark and just as loud as the last one.")
 
 //maybe collect like 10 knowledge:
 console.log("There it was again. A whisper joyous in tone. It seams to come from the next room.")
-//open next door (dritter raum)
-console.log("There is a man, tall, slim, silent and with a smile so wide. The Walls become quiet in his presence. You decide to stay a while.")
-//read a bit (maybe two times?)
+//open next door (dritter raum)(10 knowlege):
+console.log("There is a man, tall, slim, silent and with a smile so wide, it hurts your eyes. The Walls become quiet in his presence. You decide to stay a while.")
+//read a bit (maybe two times?) (next room costs like 12 so you will have to):
 console.log("Whispers surround you as you read. The man does not move, nor talk. But you are sure it is him. Maybe you could listen to him.")
-//now you can talk to him for insanity and progress
+//now you can talk to him for insanity and progress (1 knowlege for books, ?10? for him)
 //when you talk to him once
 console.log("The man whispers to you. He talks of secrets and worlds long gone. The knowledge he shares is of remarkable use.")
 //now you can afford upgrades.
@@ -34,9 +34,9 @@ console.log("The man asks you to give him knowledge for understanding. You do no
 console.log("The man whispers of a gate, a key and a guard. He says they will guide you if you give them space.")
 //Upgrade for oracle which costs rooms.
 //when you take the upgrade:
-console.log("You tell the man that you will give them rooms. You do not know what it means, but the doors are no longer. Instead there is a giant gate.")
+console.log("You tell the man that you will give them room. You do not know what it means, but the doors are no longer. Instead there is a gate.")
 //when first speaking to the gate:
-console.log("The gate is black as infinity. You do not dare to enter nor look inside. But there is speech, less a voice then a maddening lullaby.")
+console.log("The gate is dark and endless as eternity. You do not dare to enter nor stare inside. But there is sound, less a voice then a maddening lullaby.")
 //when you speak to the gate a second time:
 console.log("The gate tells you of something that sleeps beneath the floors. You will have to explore more to find what you seek.")
 //if you have enough rooms but dont buy the upgrade:
@@ -45,20 +45,20 @@ console.log("The gates song as stopped, there is silence. Only the wind speaks o
 console.log("The floor of the room caves in and reveals a lake beneath. A creature less men then fish begins it's ascend into your room. It bows before you and the smiling man.")
 //the library tab is now activated.
 //when talking to nya after the grotto:
-console.log("The man speaks of a time long gone. A time when the creatures from the deep and man where once one.")
+console.log("The man speaks of a time long gone. A time when the creatures from the deep and man where one.")
 //gate comment when the deep one was found
-console.log("The gate sings of a time when the creatures of water could walk under the sun. You wonder what the sun is. You want to find it, off to exploring.")
+console.log("The gate sings of a time when the creatures of water could walk under the sun. You wonder what the sun is. You want to find it.")
 //TODO: ich benoetigte eine formel wie die anzahl an raeumen mit der chance deep ones zu finden verbunden ist.
 //goal is to reach 100 rooms. if they do:
 console.log("You found the main hall. You look up to count the floors you have yet to explore. But as you start to count the floors move. You accept the infinitude of the library and start to search for the main entrance.")
 //goal is now to reach 200 rooms. if they do:
-console.log("You open the big iron doors, more resembling the doors of a bunker then of a library. The outside world is bright and far. You feel dizzy and go back to your books.")
+console.log("You open the big iron doors, more resembling the doors of a bunker then a library. The outside world is bright and far. You feel dizzy and go back to your books.")
 //asking the gate what to do:
 console.log("The gate sings of all kind of things to be found under the sun. You feel you want to send someone out there. Maybe with more knowledge you may find someone.")
 //asking nya what to do now:
 console.log("A whisper of far away planes, of far away creatures, sturdy, fast and strong.")
 //(by now there should have been a few upgrades) 1million knowledge/upgrade:
-console.log("The lullaby of the gate turns loud. Loud enough to shatter your skull, crack the walls and open the corners. From the corners a black substance crawls into the room. You do not know what they are. But you call them Hounds.")
+console.log("The lullaby of the gate turns loud. Loud enough to shatter your skull, crack the walls and open the corners. From them a black substance crawls into the room. You do not know what they are. But you call them Hounds.")
 //asking the gate what to do:
 console.log("The songs turn mournful and deep. The gate sings of a son it lost. A song of how relics where used to banish him.")
 //asking nya what to do:
@@ -82,16 +82,16 @@ console.log("The man whispers, whispers happily. The whispers almost seam like a
 console.log("The gate sings a loud song. the song is intense and fast. It is a song of war. Maybe if you have enough starspawns you will know what to do.")
 console.log("The man whispers. It is a joyous whisper. Joyous and happy. A Whisper of Blood and destruction. You think that with a few more starspawnss you might make him even happier.")
 //second starspawn owned: upgrade available
-console.log("You read another book. As you do so you fall asleep. You dream of wonderfull things. Of giant Things. Of bloody Things. You dream of War.")
+console.log("You read another book. As you do so you fall asleep. You dream of wonderful things. Of giant Things. Of bloody Things. You dream of War.")
 //after buying the war interface(World Tab):
 //nya and gate:
 console.log("The lullaby sings of flutes. Flutes playing loudly, playing aggressively. Are they declaring war? War they shall have.")
-console.log("The man murmurs. Murmurs of change. Murmurs of sleep and the flutes playing this sleepy song. Murmurs of how the flutes must be muted.")
+console.log("The man murmurs. Murmurs of change. Murmurs of sleep and the flutes playing a sleepy song. Murmurs of how the flutes must be muted.")
 //after beating/taking the first town:
 console.log("You dream. Dream of flutes and drums. Of flutes and drums from nowhere. Singing to nothing and all. Their maddening song reaching you all the way here.")
 //nya and gate:
 console.log("The same song as before. A lullaby of flutes. They play loud, play aggressive, play without your consent. War. War is your answer.")
-console.log("The man tells you of a time once long gone. A time when many of those giant things lived. When non of your enemies lived and all that was was your kind.")
+console.log("The man tells you of a time long gone. A time when many of those giant things lived. When non of your enemies lived and all that was was your kind.")
 //after taking the first mayor city.
 console.log("You found a scroll. A ritual. A ritual old as time. One that will bring you closer to the flutes.")
 //using and beating the summon:
@@ -107,7 +107,7 @@ console.log("The flute has stopped. Silence sweeps the land. Nothing makes a sou
 console.log("The songs become more calming then they used to be. The song is about sleep, about awakening and dreams. Dreaming for so long.")
 console.log("Whispers swirl around your head. The whispers tell of birth and creation. Of dreams and creations as one.")
 //third ritual:
-console.log("The world has turned quiet. The drumbs of war playing in the far distance. No more birds, no more wildlife. All is quiet.")
+console.log("The world has turned quiet. The drums of war playing in the far distance. No more birds, no more wildlife. All is quiet.")
 //talking to nya and gate:
 console.log("A chant from eons ago echos through the gate. The chant tells of a time before sound. When all was silence, and how this time may come again.")
 console.log("The man seams different. Sad maybe? No, sad is not a possibility. But different. He talk of a time when he supported mankind. A time when he was bored.")

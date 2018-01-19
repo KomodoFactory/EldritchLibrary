@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/javascript" src="Data/Ressources.js"></script>
-    <script type="text/javascript" src="Data/GameState.js"></script>
-    <script type="text/javascript" src="Engine.js"></script>
+    <script type="text/javascript" src="scripts/Container/Ressources.js"></script>
+    <script type="text/javascript" src="scripts/Container/GameState.js"></script>
+    <script type="text/javascript" src="scripts/ConsoleController.js"></script>
+    <script type="text/javascript" src="scripts/IOController.js"></script>
+    <script type="text/javascript" src="scripts/Engine.js"></script>
     <meta charset="UTF-8">
     <title>A Dark Room</title>
 </head>
 <body>
 
-<div id="Console"></div>
-
-<div id="Tabs"></div>
-
-<div id="Body">
-    <input id="studyButton" type="button" value="Read a book"/>
+<div id="header">
+    <span id="fpsDisplay"></span>
 </div>
 
-<div id="Ressources">
+<div id="console"></div>
+<div id="body">
+    <div id="tabs"></div>
+    <div id="centralRoomBody">
+        <input id="studyButton" type="button" value="Read a book"/>
+        <input id="studyMultiplierButton" type="button" value="Better a book"/>
+    </div>
+    <div id="libraryBody"></div>
+    <div id="worldBody"></div>
+    <div id="systemBody"></div>
+</div>
+
+<div id="ressources">
+    <h4>Ressources:</h4>
     <span id="insanity_name">Insanity =</span>
     <span id="insanity_amount">0</span>
 </div>
 
 
 <script>
+    loadGameState();
+
+
+    //TODO: See if I can easify this
     document.getElementById("studyButton").onclick = function () {
-        console.log(this)
         buttonPress(this.id);
     }
+    document.getElementById("studyMultiplierButton").onclick = function () {
+        buttonPress(this.id);
+    }
+
+    /*
+    document.hasFocus();
+    */
+
+    requestAnimationFrame(mainLoop);
+
 </script>
 </body>
 </html>
