@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--TODO: get this to the right position!!-->
+    <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css">
+    <script src="style/js/jquery-1.11.3.min.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="scripts/Container/Ressources.js"></script>
     <script type="text/javascript" src="scripts/Container/GameState.js"></script>
     <script type="text/javascript" src="scripts/ConsoleController.js"></script>
@@ -15,24 +20,67 @@
     <span id="fpsDisplay"></span>
 </div>
 
-<div id="console"></div>
-<div id="body">
-    <div id="tabs"></div>
+
+<div class="col-sm-3" id="console">
+    <!-- TODO: remove this once the layout works-->
+    <hr class="seperator">
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+</div>
+
+<div class="col-sm-6" id="body">
+    <ul class="nav nav-tabs" id="tabs">
+        <li class="active" id="tabs_room"><a href="#">A Dark Room</a></li>
+        <li id="tabs_library"><a href="#">The Library</a></li>
+        <li id="tabs_world"><a href="#">The World</a></li>
+        <li id="tabs_system"><a href="#">System</a></li>
+    </ul>
+
     <div id="centralRoomBody">
         <input id="studyButton" type="button" value="Read a book"/>
-        <input id="studyMultiplierButton" type="button" value="Better a book"/>
+        <input id="exploreButton" type="button" value="Explore a room"/>
+        <input id="talkNyaButton" type="button" value="Listen to the man"/>
+        <input id="talkYogButton" type="button" value="Listen to the gate"/>
     </div>
     <div id="libraryBody"></div>
     <div id="worldBody"></div>
     <div id="systemBody"></div>
 </div>
 
-<div id="ressources">
+<div class="col-sm-3" id="ressources">
     <h4>Ressources:</h4>
     <span id="insanity_name">Insanity =</span>
     <span id="insanity_amount">0</span>
-</div>
 
+
+    <hr class="seperator">
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+    <span>DD</span>
+</div>
 
 <script>
     loadGameState();
@@ -42,16 +90,12 @@
     document.getElementById("studyButton").onclick = function () {
         buttonPress(this.id);
     }
-    document.getElementById("studyMultiplierButton").onclick = function () {
-        buttonPress(this.id);
-    }
 
     /*
     document.hasFocus();
     */
 
     requestAnimationFrame(mainLoop);
-
 </script>
 </body>
 </html>

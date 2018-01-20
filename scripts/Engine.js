@@ -111,7 +111,6 @@ function mainLoop(timestamp) {
 function readBook(){
     document.title = "A Cozy Room";
     gamestate.gainInsanity(1);
-    update();
 }
 function betterBook(){
     gamestate.increaseInsanityMultiplier(1);
