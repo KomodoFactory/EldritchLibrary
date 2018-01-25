@@ -1,7 +1,7 @@
 class GameState {
     constructor(savestate = "") {
         if (savestate === "") {
-            this.ressources = new Ressources(100, 0, 0, 0);
+            this.ressources = new Ressources(0, 0, 0, 0);
             this.units = {
                 deepOnes: 0,
                 hounds: 0,
@@ -33,10 +33,40 @@ class GameState {
     }
 
     getInsanityMultiplier(){
-
+        return this.ressources.insanityMultiplier;
     }
+
     increaseInsanityMultiplier(gain){
         this.ressources.insanityMultiplier += gain;
     }
 
+
+    getRooms(){
+        return this.ressources.rooms;
+    }
+
+    buyRooms(amount){
+        this.payInsanity(amount * 5);
+        this.gainRooms(amount);
+    }
+
+    payRooms(price) {
+        this.ressources.rooms -= price;
+    }
+
+    gainRooms(base) {
+        this.ressources.rooms += (base * this.ressources.roomsMultiplier);
+    }
+
+    checkRooms(needed) {
+        return (this.ressources.rooms >= needed)
+    }
+
+    getRoomsMultiplier(){
+        return this.ressources.roomsMultiplier;
+    }
+
+    increaseRoomsMultiplier(gain){
+        this.ressources.roomsMultiplier += gain;
+    }
 }

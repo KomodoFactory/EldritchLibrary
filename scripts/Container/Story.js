@@ -135,4 +135,4 @@ console.log("'I am His Messenger' the daemon said, As in contempt he struck his 
 //if you did not find all tings:
 console.log("The earth stands still as nothing moves. A world that burns in flames is left. A house empty of knowledge empty of life.")
 console.log("The gate is mute, the man is gone. The Silence of the end has come for our world.")
-console.log("Soon from the sea a noxious birth began; Forgotten lands with weedy spires of gold; The ground was cleft, and mad auroras rolled down on the quaking citadels of man. Then, crushing what he chanced to mould in play, the idiot Chaos blew Earth's dust away.")
+console.log("Then, crushing what he chanced to mould in play, the idiot Chaos blew Earth's dust away.")

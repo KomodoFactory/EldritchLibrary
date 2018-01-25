@@ -2,7 +2,6 @@ var gamestate = new GameState();
 var lastFrameTimeMs = 0;
 var maxFPS = 60;
 var timestep = 1000 / maxFPS;
-var numUpdateSteps = 0;
 var delta = 0;
 var fps = 60;
 var framesThisSecond = 0;
@@ -30,7 +29,7 @@ function start() {
         started = true;
         // Dummy frame to get our timestamps and initial drawing right.
         // Track the frame ID so we can cancel it if we stop quickly.
-        frameID = requestAnimationFrame(function(timestamp) {
+        frameID = requestAnimationFrame(function (timestamp) {
             draw(1); // initial draw
             running = true;
             // reset some time tracking variables
@@ -43,35 +42,40 @@ function start() {
     }
 }
 
-function stop(){
-	running = false;
-	started = false;
-	cancelAnimationFrame(frameID);
+function stop() {
+    running = false;
+    started = false;
+    cancelAnimationFrame(frameID);
 }
+
 //---------------------------------//
 
+function calculateIncomes(delta){
+    insanityIncome = 0.001 * delta;
+    gamestate.gainInsanity(insanityIncome);
+
+    roomIncome = 0.001 * delta;
+    gamestate.gainRooms(roomIncome);
+}
 
 function update(delta) {
+    calculateIncomes(delta);
     //TODO:
-    //calculateIncomes();
-    //addIncome();
     //checkUpgrade();
     //checkTitles();
     //checkStory();
-
-    insanityIncome = 0.001 * delta;
-    gamestate.gainInsanity(insanityIncome);
 }
 
 function draw() {
     document.getElementById("insanity_amount").innerHTML = Math.floor(gamestate.getInsanity());
+    document.getElementById("rooms_amount").innerHTML = Math.floor(gamestate.getRooms());
     document.getElementById("fpsDisplay").innerHTML = Math.ceil(fps) + ' FPS';
 }
 
-function panic(){
-    console.log("VERBY BAD!!");
-    delta = 0; //discard the unsimulated time
-    //TODO: THIS SHOULD NOT HAPPEN! EVER! WORK AROUDN IT LATER !
+function panic() {
+    console.log("Calculating missed Frames.");
+    update(delta);
+    delta = 0;
 }
 
 function mainLoop(timestamp) {
@@ -85,7 +89,7 @@ function mainLoop(timestamp) {
 
     //tracking the fps... why ever
     //TODO: Probably will change position
-    if(timestamp > lastFPSUpdate + 1000){
+    if (timestamp > lastFPSUpdate + 1000) {
         fps = 0.25 * framesThisSecond + (1 - 0.25) * fps;
 
         lastFPSUpdate = timestamp;
@@ -98,21 +102,19 @@ function mainLoop(timestamp) {
         delta -= timestep;
 
         //sanity check
-        if(++numUpdateSteps >= 240){
+        if (delta >= 240) {
             panic(); //fix things
-            break; //bail out
         }
-
     }
     draw();
     requestAnimationFrame(mainLoop);
 }
 
-function readBook(){
+function readBooks() {
     document.title = "A Cozy Room";
     gamestate.gainInsanity(1);
 }
-function betterBook(){
-    gamestate.increaseInsanityMultiplier(1);
-    update();
+
+function exploreRooms() {
+    gamestate.buyRooms(1);
 }

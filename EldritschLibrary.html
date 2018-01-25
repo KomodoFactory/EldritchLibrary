@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <!--TODO: get this to the right position!!-->
-    <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/css/library.css">
     <script src="style/js/jquery-1.11.3.min.js"></script>
-    <script src="style/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="scripts/Container/Ressources.js"></script>
     <script type="text/javascript" src="scripts/Container/GameState.js"></script>
@@ -16,70 +15,80 @@
 </head>
 <body>
 
-<div id="header">
+<div class="page_header" id="page_header">
     <span id="fpsDisplay"></span>
 </div>
 
 
-<div class="col-sm-3" id="console">
-    <!-- TODO: remove this once the layout works-->
+<div class="site-column console" id="console">
+
     <hr class="seperator">
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
 </div>
 
-<div class="col-sm-6" id="body">
-    <ul class="nav nav-tabs" id="tabs">
-        <li class="active" id="tabs_room"><a href="#">A Dark Room</a></li>
-        <li id="tabs_library"><a href="#">The Library</a></li>
-        <li id="tabs_world"><a href="#">The World</a></li>
-        <li id="tabs_system"><a href="#">System</a></li>
-    </ul>
-
-    <div id="centralRoomBody">
-        <input id="studyButton" type="button" value="Read a book"/>
-        <input id="exploreButton" type="button" value="Explore a room"/>
-        <input id="talkNyaButton" type="button" value="Listen to the man"/>
-        <input id="talkYogButton" type="button" value="Listen to the gate"/>
+<div class="middle-column" id="body">
+    <div class="locations" id="location_navbar">
+        <div class="active" id="location_room">A Dark Room</div>
+        <div id="location_library">The Library</div>
+        <div id="location_world">The World</div>
+        <div id="location_system">System</div>
     </div>
-    <div id="libraryBody"></div>
-    <div id="worldBody"></div>
-    <div id="systemBody"></div>
+
+    <div id="locationSlider">
+        <div class="tabBody" id="roomBody">
+            <div id="ressourceButtons">
+                <input class="ressourceButton" id="studyButton" type="button" value="Read a book"/>
+                <input class="ressourceButton" id="exploreButton" type="button" value="Explore a room"/>
+            </div>
+            <div id="partnerButtons">
+                <input class="ressourceButton" id="talkNyaButton" type="button" value="Listen to the man"/>
+                <input class="ressourceButton" id="talkYogButton" type="button" value="Listen to the gate"/>
+            </div>
+        </div>
+        <div class="tabBody" id="libraryBody"></div>
+        <div class="tabBody" id="worldBody"></div>
+        <div class="tabBody" id="systemBody"></div>
+    </div>
 </div>
 
-<div class="col-sm-3" id="ressources">
-    <h4>Ressources:</h4>
-    <span id="insanity_name">Insanity =</span>
-    <span id="insanity_amount">0</span>
+<div class="site-column" id="managment">
+    <div class="managment" id="managment_navbar">
+        <div class="active" id="managment_ressource">Ressources</div>
+        <div id="managment_upgrade">Upgrades</div>
+    </div>
 
+    <div id="ressourceContainer">
+        <div class="ressource_row">
+            <h4 class="ressourceHeading">Materials:</h4>
+        </div>
+        <div class="ressource_row">
+            <div class="row_key" id="insanity_name">Insanity:</div>
+            <div class="row_val" id="insanity_amount">0</div>
+        </div>
+        <div class="ressource_row">
+            <div class="row_key" id="rooms_name">Rooms:</div>
+            <div class="row_val" id="rooms_amount">0</div>
+        </div>
+        <div class="ressource_row">
+            <div class="row_key" id="relics_name">Relics:</div>
+            <div class="row_val" id="relics_amount">0</div>
+        </div>
 
-    <hr class="seperator">
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
-    <span>DD</span>
+        <div class="ressource_row">
+            <h4 class="ressourceHeading">Inhabitants:</h4>
+        </div>
+        <div class="ressource_row">
+            <div class="row_key" id="deepOnes_name">Deep Ones:</div>
+            <div class="row_val" id="deepOnes_amount">0</div>
+        </div>
+        <div class="ressource_row">
+            <div class="row_key" id="hounds_name">Hounds:</div>
+            <div class="row_val" id="hounds_amount">0</div>
+        </div>
+        <div class="ressource_row">
+            <div class="row_key" id="oldOnes_name">Starspawns:</div>
+            <div class="row_val" id="oldOnes_amount">0</div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -88,6 +97,9 @@
 
     //TODO: See if I can easify this
     document.getElementById("studyButton").onclick = function () {
+        buttonPress(this.id);
+    }
+    document.getElementById("exploreButton").onclick = function () {
         buttonPress(this.id);
     }
 
