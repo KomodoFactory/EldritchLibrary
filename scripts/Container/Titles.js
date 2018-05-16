@@ -69,8 +69,8 @@ console.log("A House Of War")
 console.log("A Dying World")
 
 //Afterstory:
-//if you found all the things:
+//if you did not find all tings:
 console.log("lkjasjajv") //something incomprehensible
 
-//if you did not find all tings:
+//if you found all the things:
 console.log("The Court Of Azathoth")
